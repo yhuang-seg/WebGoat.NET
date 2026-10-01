@@ -437,60 +437,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Lee",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "63017c8f-6a7a-41ac-97ac-16963dce7098"
-              ]
-            },
-            "labels": [
-              "Lee"
-            ],
-            "id": "4b4dee58-eeef-4a2b-98e2-8a042bdb76df",
-            "source": {
-              "x": 570,
-              "y": 450
-            },
-            "target": {
-              "cell": "9255b815-f502-4cab-9e70-7e2006b2ccfb",
-              "port": "1ee3dcf0-207a-4440-b665-eb68442adaf0"
-            },
-            "vertices": [
-              {
-                "x": 660,
-                "y": 450
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "SQL",
               "description": "",
               "outOfScope": false,
@@ -520,6 +466,60 @@
               {
                 "x": 970,
                 "y": 457
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "read",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "63017c8f-6a7a-41ac-97ac-16963dce7098"
+              ]
+            },
+            "labels": [
+              "read"
+            ],
+            "id": "4b4dee58-eeef-4a2b-98e2-8a042bdb76df",
+            "source": {
+              "x": 570,
+              "y": 450
+            },
+            "target": {
+              "cell": "9255b815-f502-4cab-9e70-7e2006b2ccfb",
+              "port": "1ee3dcf0-207a-4440-b665-eb68442adaf0"
+            },
+            "vertices": [
+              {
+                "x": 660,
+                "y": 450
               }
             ]
           },
@@ -667,7 +667,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "login (http)",
+              "name": "login",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -683,7 +683,7 @@
               ]
             },
             "labels": [
-              "login (http)"
+              "login"
             ],
             "id": "c725cdb1-2acc-4df0-b8fc-e32b1976cf96",
             "source": {
