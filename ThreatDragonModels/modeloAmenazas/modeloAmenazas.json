@@ -820,8 +820,8 @@
           },
           {
             "position": {
-              "x": 757.5,
-              "y": 630
+              "x": 1305,
+              "y": 424
             },
             "size": {
               "width": 112.5,
@@ -829,18 +829,163 @@
             },
             "attrs": {
               "text": {
-                "text": "Activo A1 – Base de datos: proteger la confidencialidad e integridad de la información almacenada. Amenazas: SQL Injection, manipulación y extracción de datos.\n\nActivo A2 – Credenciales de base de datos: evitar que usuarios no autorizados obtengan las credenciales utilizadas por la aplicación. Amenazas: exposición de configuración, path traversal e información sensible en errores.\n\nActivo A3 – Sistema operativo host: evitar que las vulnerabilidades deliberadas de WebGoat permitan comprometer la máquina donde se ejecuta. Amenazas: RCE, command injection, path traversal y escalación de privilegios.\n\nActivo A4 – Sesión del usuario: proteger la identidad y autenticación del usuario. Amenazas: robo de sesión, fixation, XSS y CSRF."
+                "text": "SO / Host"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
               }
             },
             "visible": true,
-            "shape": "td-text-block",
-            "id": "e88f2786-2677-4f25-ad8c-0fc95125624e",
-            "zIndex": 13,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "46ee066d-8a92-47f4-86be-486f1c702478"
+                },
+                {
+                  "group": "right",
+                  "id": "0f407d40-c371-48df-b706-a74e3127471a"
+                },
+                {
+                  "group": "bottom",
+                  "id": "54060442-d14b-4f8a-916f-34175e376b15"
+                },
+                {
+                  "group": "left",
+                  "id": "cd7debeb-c9d9-4685-9ceb-216e41a66feb"
+                }
+              ]
+            },
+            "id": "bd1c58e9-2b7e-47ba-853a-8c8b059f4043",
+            "zIndex": 14,
             "data": {
-              "type": "tm.Text",
-              "name": "Activo A1 – Base de datos: proteger la confidencialidad e integridad de la información almacenada. Amenazas: SQL Injection, manipulación y extracción de datos.\n\nActivo A2 – Credenciales de base de datos: evitar que usuarios no autorizados obtengan las credenciales utilizadas por la aplicación. Amenazas: exposición de configuración, path traversal e información sensible en errores.\n\nActivo A3 – Sistema operativo host: evitar que las vulnerabilidades deliberadas de WebGoat permitan comprometer la máquina donde se ejecuta. Amenazas: RCE, command injection, path traversal y escalación de privilegios.\n\nActivo A4 – Sesión del usuario: proteger la identidad y autenticación del usuario. Amenazas: robo de sesión, fixation, XSS y CSRF.",
-              "hasOpenThreats": false
+              "type": "tm.Actor",
+              "name": "SO / Host",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
             }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 15,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              ""
+            ],
+            "id": "2cb8fc07-c099-4d45-aea1-2050dea500d9",
+            "source": {
+              "x": 1180,
+              "y": 454
+            },
+            "target": {
+              "cell": "bd1c58e9-2b7e-47ba-853a-8c8b059f4043",
+              "port": "cd7debeb-c9d9-4685-9ceb-216e41a66feb"
+            },
+            "vertices": [
+              {
+                "x": 1240,
+                "y": 454
+              }
+            ]
           }
         ]
       },
