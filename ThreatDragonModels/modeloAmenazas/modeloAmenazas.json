@@ -188,7 +188,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Usuario"
+                "text": "User"
               },
               "body": {
                 "stroke": "#333333",
@@ -284,7 +284,7 @@
             "id": "efa80c44-7558-4570-ab50-988934fa13ae",
             "data": {
               "type": "tm.Actor",
-              "name": "Usuario",
+              "name": "User",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -667,7 +667,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Http + session",
+              "name": "login (http)",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -683,7 +683,7 @@
               ]
             },
             "labels": [
-              "Http + session"
+              "login (http)"
             ],
             "id": "c725cdb1-2acc-4df0-b8fc-e32b1976cf96",
             "source": {
@@ -694,12 +694,7 @@
               "cell": "86dfc240-abf5-4308-ab3c-9401e2e6f499",
               "port": "cc1b712f-de93-421d-8335-e99aa2f6da44"
             },
-            "vertices": [
-              {
-                "x": 320,
-                "y": 454
-              }
-            ]
+            "vertices": []
           }
         ]
       }
