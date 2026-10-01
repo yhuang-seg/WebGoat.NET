@@ -175,13 +175,6 @@
               "storesCredentials": false,
               "storesInventory": false,
               "threats": []
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -471,7 +464,7 @@
             },
             "vertices": [
               {
-                "x": 970,
+                "x": 1000,
                 "y": 457
               }
             ]
@@ -525,7 +518,7 @@
             },
             "vertices": [
               {
-                "x": 660,
+                "x": 690,
                 "y": 450
               }
             ]
@@ -674,7 +667,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "login",
+              "name": "https",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -690,7 +683,7 @@
               ]
             },
             "labels": [
-              "login"
+              "https"
             ],
             "id": "c725cdb1-2acc-4df0-b8fc-e32b1976cf96",
             "source": {
