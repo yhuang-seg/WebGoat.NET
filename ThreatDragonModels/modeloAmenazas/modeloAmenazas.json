@@ -35,8 +35,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "63017c8f-6a7a-41ac-97ac-16963dce7098",
             "zIndex": -1,
+            "id": "63017c8f-6a7a-41ac-97ac-16963dce7098",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
@@ -77,6 +77,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -160,7 +161,6 @@
               ]
             },
             "id": "4223242d-ad9e-432c-b520-783d2670e370",
-            "zIndex": 4,
             "data": {
               "type": "tm.Store",
               "name": "Base de datos",
@@ -198,6 +198,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -281,7 +282,6 @@
               ]
             },
             "id": "efa80c44-7558-4570-ab50-988934fa13ae",
-            "zIndex": 6,
             "data": {
               "type": "tm.Actor",
               "name": "Usuario",
@@ -315,6 +315,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 7,
             "ports": {
               "groups": {
                 "top": {
@@ -398,7 +399,6 @@
               ]
             },
             "id": "86dfc240-abf5-4308-ab3c-9401e2e6f499",
-            "zIndex": 7,
             "data": {
               "type": "tm.Process",
               "name": "WebGoat.NET",
@@ -547,6 +547,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -630,7 +631,6 @@
               ]
             },
             "id": "9255b815-f502-4cab-9e70-7e2006b2ccfb",
-            "zIndex": 11,
             "data": {
               "type": "tm.Store",
               "name": "App config",
