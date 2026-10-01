@@ -64,7 +64,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Base de datos"
+                "text": "Data base"
               },
               "topLine": {
                 "strokeWidth": 1.5,
@@ -163,7 +163,7 @@
             "id": "4223242d-ad9e-432c-b520-783d2670e370",
             "data": {
               "type": "tm.Store",
-              "name": "Base de datos",
+              "name": "Data base",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -175,6 +175,13 @@
               "storesCredentials": false,
               "storesInventory": false,
               "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
